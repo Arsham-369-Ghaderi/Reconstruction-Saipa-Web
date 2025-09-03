@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: vaziri;
+  src: url(./font/Vazirmatn-Regular.ttf);
+}
+
+@font-face {
+  font-family: iransans;
+  src: url(./font/IRANSansX-DemiBold.ttf);
+}
+
+@font-face {
+  font-family: moraba;
+  src: url(./font/Morabba-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: boldg;
+  src: url(./font/Hamrah.ttf);
+}
+
+* {
+  font-family: vaziri;
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: rgb(255, 123, 0);
+  color: white;
+}
+
+@layer utilities {
+  .home-shadow {
+    filter: drop-shadow(1px 1px 15px black);
+  }
+
+  .home-shadow-2 {
+    filter: brightness(85%);
+  }
+
+  .font-navbar-1{
+  font-family: iransans;
+  }
+
+  .font-header-home {
+    font-family: moraba;
+  }
+
+  .font-home {
+    font-family: boldg;
+  }
+
+  .navbar-shadow-ul {
+    filter: drop-shadow(1px 1px 5px #fae6d960);
+  }
+
+  .navbar-shadow-ul2 {
+    filter: drop-shadow(1px 1px 7px #fae6d9cb);
+  }
+
+  .car-btn-shadow {
+    filter: drop-shadow(1px 1px 10px #f5be9942);
+  }
+
+  .car-btn-shadow2 {
+    filter: drop-shadow(1px 1px 10px #99f5ad59);
+  }
+
+  .shadow-lottry-h1 {
+    filter: drop-shadow(1px 1px 20px #ffffff80);
+  }
+  
+  .shadow-lottry-p {
+    filter: drop-shadow(1px 1px 3px #ffffff71);
+  }
+
+  .about-img-shadow {
+    filter: drop-shadow(1px 1px 20px rgba(247, 190, 143, 0.301));
+  }
+
+  .fooer-shadow-icon {
+    filter: drop-shadow(1px 1px 7px #eeb26d5d);
+  }
+
+  .fooer-shadow-icon2 {
+    filter: drop-shadow(1px 1px 9px #eeb26db6);
+  }
+}
+
