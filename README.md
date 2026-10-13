@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./public/images/redmi-image.png" alt="Saipa Redesign Preview" width="100%" />
+  <img src="./public/images/redmi-images.png" alt="Saipa Redesign Preview" width="100%" />
 </p>
 
 # 🚗 Saipa Website Redesign Concept
