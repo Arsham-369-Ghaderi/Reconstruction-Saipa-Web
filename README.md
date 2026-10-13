@@ -27,7 +27,7 @@ The goal of this project was to practice advanced frontend development technique
 ## 🛠️ Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=reactjs,javascript,tailwind" alt="Next.js, TypeScript, Tailwind CSS, Three.js" />
+  <img src="https://skillicons.dev/icons?i=react,javascript,tailwind" alt="React.js, JavaScript, Tailwind CSS" />
   <img src="https://cdn.simpleicons.org/framer/0055FF" height="48" alt="Framer Motion" />
   <img src="https://cdn.simpleicons.org/greensock/88CE02" height="48" alt="GSAP" />
 </div>
